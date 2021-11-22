@@ -5,12 +5,12 @@
 
 using namespace std;
 
-struct Node {
+struct TrieNode {
     char key;
-    Node** child;
+    TrieNode** child;
 };
 
 struct Trie {
-    Node* root;
+    TrieNode* root;
 };
 
